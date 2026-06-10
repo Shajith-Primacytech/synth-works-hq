@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, Sparkles, FileText, MessageSquare } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import { BookCallButton } from "./BookCallButton";
 
 const flow = [
   { icon: Mail, label: "Email received", time: "00:00" },
