@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Mail } from "lucide-react";
+import { BookCallButton } from "./BookCallButton";
 
 export function CTA() {
   return (
