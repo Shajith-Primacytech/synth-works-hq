@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { SectionHeader } from "./Section";
+import { BookCallButton } from "./BookCallButton";
 
 const tiers = [
   {
@@ -77,8 +78,7 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a
-                href="#contact"
+              <BookCallButton
                 className={`mt-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full font-semibold text-sm transition ${
                   t.featured
                     ? "bg-primary text-primary-foreground hover:opacity-90"
@@ -86,7 +86,7 @@ export function Pricing() {
                 }`}
               >
                 Book a call <ArrowRight className="w-4 h-4" />
-              </a>
+              </BookCallButton>
             </motion.div>
           ))}
         </div>
