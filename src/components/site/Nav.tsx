@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Zap } from "lucide-react";
+import { BookCallButton } from "./BookCallButton";
 
 const links = [
   { href: "#work", label: "Work" },
