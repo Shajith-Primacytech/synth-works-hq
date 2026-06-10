@@ -26,13 +26,10 @@ export function CTA() {
             you exactly how to automate it. No pitch, no pressure.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <a
-              href="mailto:Shajithautomate@gmail.com"
-              className="group inline-flex items-center gap-2 px-7 py-4 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition btn-glow"
-            >
+            <BookCallButton className="group inline-flex items-center gap-2 px-7 py-4 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition btn-glow">
               Book strategy call
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </BookCallButton>
             <a
               href="mailto:Shajithautomate@gmail.com"
               className="inline-flex items-center gap-2 px-7 py-4 rounded-full border border-border text-foreground hover:border-primary hover:text-primary transition"
