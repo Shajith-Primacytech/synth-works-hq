@@ -59,12 +59,9 @@ export function Hero() {
               See our work
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-primary/40 text-primary font-semibold hover:bg-primary/10 transition"
-            >
+            <BookCallButton className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-primary/40 text-primary font-semibold hover:bg-primary/10 transition">
               Book strategy call
-            </a>
+            </BookCallButton>
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-mono-tech text-muted-foreground">
             <span>★ Top Rated on Upwork</span>
