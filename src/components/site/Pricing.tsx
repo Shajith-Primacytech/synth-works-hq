@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { SectionHeader } from "./Section";
+import { BookCallButton } from "./BookCallButton";
 
 const tiers = [
   {
